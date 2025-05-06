@@ -70,7 +70,7 @@ my_event.1 = {
 
 ## Effects
 
-Effects are actions that can be performed in events, decisions, and other game mechanics. They are the "verbs" of CK3 modding.
+Effects are actions that can be performed in events, decisions, and other game mechanics. They are the "verbs"/functions of CK3 modding. 
 
 Common effects include:
 
