@@ -1,0 +1,41 @@
+=== Structure ===
+
+This directory contains game rules, definitions, and mechanics that define how the game works.
+Each subdirectory contains specific types of game data in .txt files.
+
+File Format:
+- All files should be in plain text (.txt)
+- Use UTF-8-BOM encoding
+- Follow the key = value format
+- Use proper indentation for nested structures
+
+Subdirectories:
+accolade_icons/ - Icons for character accolades and honors
+accolade_names/ - Name lists for generated accolades
+accolade_types/ - Definitions of different types of accolades
+achievements/ - Achievement definitions and conditions
+activities/ - Definitions for character activities and events
+ai_goaltypes/ - AI behavior and goal definitions
+ai_war_stances/ - AI war behavior patterns
+artifacts/ - Artifact definitions and properties
+buildings/ - Building types and effects
+casus_belli_types/ - War justification types
+character_interactions/ - Character interaction definitions
+combat_effects/ - Combat system effects
+council_positions/ - Council role definitions
+court_positions/ - Court position types
+culture/ - Culture mechanics and innovations
+decisions/ - Decision triggers and effects
+dynasties/ - Dynasty mechanics
+events/ - Event triggers and chains
+focuses/ - Character focus options
+game_rules/ - Game rule definitions
+governments/ - Government type definitions
+laws/ - Law system definitions
+lifestyle_perks/ - Character lifestyle perks
+modifiers/ - Game modifier definitions
+religion/ - Religion mechanics and doctrines
+schemes/ - Scheme types and effects
+scripted_effects/ - Reusable script effects
+scripted_triggers/ - Reusable condition checks
+traits/ - Character trait definitions 

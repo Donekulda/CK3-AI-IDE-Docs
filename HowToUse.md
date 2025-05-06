@@ -1,0 +1,2 @@
+# How to use those docs
+in your IDE select import docs for AI (In cursors jsut add url for docs), and use the url of the Docs fold, so navigate into the Docs folder and copy and paste the url into you IDE, dont use entire github, as it could unnecesseraly rdrain your resources (tokens), Docs should contain optimized data(WIP) for the AI. 

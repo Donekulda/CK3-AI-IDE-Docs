@@ -1,0 +1,1281 @@
+{
+    "Event Target Documentation:": {
+        "desc": ""
+    },
+    "memory_owner": {
+        "desc": "Get the owner of a character memory",
+        "input_scopes": "character_memory",
+        "output_scopes": "character"
+    },
+    "memory_participant": {
+        "desc": "Get the participant of a given tag from a memory",
+        "requires_data": "yes",
+        "input_scopes": "character_memory",
+        "output_scopes": "character"
+    },
+    "subject_contract_type": {
+        "desc": "Get the type of a given contract obligation",
+        "input_scopes": "vassal_contract_obligation_level",
+        "output_scopes": "vassal_contract"
+    },
+    "vassal_contract_type": {
+        "desc": "Get the type of a given contract obligation",
+        "input_scopes": "vassal_contract_obligation_level",
+        "output_scopes": "vassal_contract"
+    },
+    "epidemic_trait": {
+        "desc": "Gets the trait that this epidemic will spread",
+        "input_scopes": "epidemic_type",
+        "output_scopes": "trait"
+    },
+    "scheme": {
+        "desc": "Get the scheme scheme associated with the task contract (if there is one).",
+        "input_scopes": "task_contract",
+        "output_scopes": "scheme"
+    },
+    "task_contract_destination": {
+        "desc": "Get the task contract destination, null if unused.",
+        "input_scopes": "task_contract",
+        "output_scopes": "province"
+    },
+    "task_contract_employer": {
+        "desc": "Get the task contract employer.",
+        "input_scopes": "task_contract",
+        "output_scopes": "character"
+    },
+    "task_contract_location": {
+        "desc": "Get the task contract location.",
+        "input_scopes": "task_contract",
+        "output_scopes": "province"
+    },
+    "task_contract_taker": {
+        "desc": "Get the task contract taker, null until taken.",
+        "input_scopes": "task_contract",
+        "output_scopes": "character"
+    },
+    "task_contract_target": {
+        "desc": "Get the task contract target, null if unused.",
+        "input_scopes": "task_contract",
+        "output_scopes": "character"
+    },
+    "secret_owner": {
+        "desc": "Get owner of scoped secret",
+        "input_scopes": "secret",
+        "output_scopes": "character"
+    },
+    "secret_target": {
+        "desc": "Get target character of scoped secret",
+        "input_scopes": "secret",
+        "output_scopes": "character"
+    },
+    "army_commander": {
+        "desc": "Get commander of scoped army",
+        "input_scopes": "army",
+        "output_scopes": "character"
+    },
+    "army_owner": {
+        "desc": "Get owner of scoped army",
+        "input_scopes": "army",
+        "output_scopes": "character"
+    },
+    "involved_combat_side": {
+        "desc": "Get combat side that army is involved in",
+        "input_scopes": "army",
+        "output_scopes": "combat_side"
+    },
+    "current_location": {
+        "desc": "Get the current province of the travel plan.",
+        "input_scopes": "travel_plan",
+        "output_scopes": "province"
+    },
+    "departure_location": {
+        "desc": "Get the province from which this travel plan started.",
+        "input_scopes": "travel_plan",
+        "output_scopes": "province"
+    },
+    "final_destination_province": {
+        "desc": "Get the final (last) destination province of the travel plan.",
+        "input_scopes": "travel_plan",
+        "output_scopes": "province"
+    },
+    "next_destination_province": {
+        "desc": "Get the next destination province of the travel plan. If you are at a destination province, it will be the one after that one.",
+        "input_scopes": "travel_plan",
+        "output_scopes": "province"
+    },
+    "next_location": {
+        "desc": "Get the next province the travel plan is going to.",
+        "input_scopes": "travel_plan",
+        "output_scopes": "province"
+    },
+    "travel_leader": {
+        "desc": "Get the Travel Leader of the scoped travel plan",
+        "input_scopes": "travel_plan",
+        "output_scopes": "character"
+    },
+    "travel_plan_activity": {
+        "desc": "Activity associated with the scoped travel plan. (may be empty)",
+        "input_scopes": "travel_plan",
+        "output_scopes": "activity"
+    },
+    "travel_plan_owner": {
+        "desc": "Get the owner of the scoped travel plan",
+        "input_scopes": "travel_plan",
+        "output_scopes": "character"
+    },
+    "location": {
+        "desc": "Get province of scoped army, character or combat",
+        "input_scopes": "character, combat, army",
+        "output_scopes": "province"
+    },
+    "character_participant_group": {
+        "desc": "Get the scope of the situation_participant_group that given character is part of for the scoped situation sub-region.",
+        "requires_data": "yes",
+        "input_scopes": "situation_sub_region",
+        "output_scopes": "situation_participant_group"
+    },
+    "sub_region_participant_group": {
+        "desc": "Get the scope of the situation_participant_group with the given name on the scoped situation sub-region",
+        "requires_data": "yes",
+        "input_scopes": "situation_sub_region",
+        "output_scopes": "situation_participant_group"
+    },
+    "religion": {
+        "desc": "Global link to religion scope of given religion string",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "religion"
+    },
+    "war": {
+        "desc": "Get war of scoped casus belli",
+        "input_scopes": "casus_belli",
+        "output_scopes": "war"
+    },
+    "artifact_age": {
+        "desc": "Get age of scoped artifact",
+        "input_scopes": "artifact",
+        "output_scopes": "value"
+    },
+    "artifact_owner": {
+        "desc": "Get owner of scoped artifact",
+        "input_scopes": "artifact",
+        "output_scopes": "character"
+    },
+    "creator": {
+        "desc": "Get creator of scoped artifact",
+        "input_scopes": "artifact",
+        "output_scopes": "character"
+    },
+    "previous_owner": {
+        "desc": "Get the previous owner of the scoped activity",
+        "input_scopes": "artifact",
+        "output_scopes": "character"
+    },
+    "previous_owner_level_2": {
+        "desc": "Get the 2 previous owner of the scoped activity",
+        "input_scopes": "artifact",
+        "output_scopes": "character"
+    },
+    "previous_owner_level_3": {
+        "desc": "Get the 3 previous owner of the scoped activity",
+        "input_scopes": "artifact",
+        "output_scopes": "character"
+    },
+    "accolade_type": {
+        "desc": "Get the accolade_type with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "accolade_type"
+    },
+    "activity_type": {
+        "desc": "Get the type of a given activity",
+        "input_scopes": "activity",
+        "output_scopes": "activity_type"
+    },
+    "array_define": {
+        "desc": "Reference the value of a numeric value in an array define: array_define:Namespace|Name|Index. Index is 0-based.",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "value"
+    },
+    "casus_belli_type": {
+        "desc": "Get the casus_belli_type with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "casus_belli_type"
+    },
+    "character": {
+        "desc": "Global link to historical ( scripted ) character scope of the given character string",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "character"
+    },
+    "compare_complex_value": {
+        "desc": "A comparison trigger that needs a parsable string parameter that will return its value in the context it is used eg: scope:root.number_of(armies)",
+        "wild_card": "yes",
+        "requires_data": "yes",
+        "output_scopes": "value"
+    },
+    "compare_value": {
+        "desc": "A comparison trigger that will return its value in the context it is used eg: root.gold",
+        "wild_card": "yes",
+        "output_scopes": "value"
+    },
+    "contract_type": {
+        "desc": "Get the type of a given contract from its key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "vassal_contract"
+    },
+    "court_position_type": {
+        "desc": "Get the court_position_type with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "court_position_type"
+    },
+    "culture": {
+        "desc": "Get culture of scoped character, province or title",
+        "input_scopes": "character, landed_title, province",
+        "output_scopes": "culture"
+    },
+    "culture_pillar": {
+        "desc": "Get the culture_pillar with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "culture_pillar"
+    },
+    "culture_tradition": {
+        "desc": "Get the culture_tradition with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "culture_tradition"
+    },
+    "decision": {
+        "desc": "Get the decision with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "decision"
+    },
+    "define": {
+        "desc": "Reference the value of a numeric define: define:Namespace|Name",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "value"
+    },
+    "doctrine": {
+        "desc": "Get the doctrine with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "doctrine"
+    },
+    "dummy_female": {
+        "desc": "Global link to the dummy female character",
+        "global_link": "yes",
+        "output_scopes": "character"
+    },
+    "dummy_male": {
+        "desc": "Global link to the dummy male character",
+        "global_link": "yes",
+        "output_scopes": "character"
+    },
+    "dynasty": {
+        "desc": "Get dynasty of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "dynasty"
+    },
+    "epidemic_type": {
+        "desc": "Get the type of this epidemic",
+        "input_scopes": "epidemic",
+        "output_scopes": "epidemic_type"
+    },
+    "event_id": {
+        "desc": "Global link to event scope of the given event id",
+        "global_link": "yes",
+        "output_scopes": "flag"
+    },
+    "faith": {
+        "desc": "Get faith of scoped character, province, title or great holy war",
+        "input_scopes": "character, landed_title, province, ghw",
+        "output_scopes": "faith"
+    },
+    "flag": {
+        "desc": "Flag literals eg: flag:the_boss",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "flag"
+    },
+    "geographical_region": {
+        "desc": "Get the geographical_region with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "geographical_region"
+    },
+    "global_var": {
+        "desc": "Reference a previous set global variable via its name eg: global_var:important_thing",
+        "requires_data": "yes",
+        "global_link": "yes"
+    },
+    "government_type": {
+        "desc": "Get the government_type of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "government_type"
+    },
+    "holding_type": {
+        "desc": "Get the type of holding in the scoped province",
+        "input_scopes": "province",
+        "output_scopes": "holding_type"
+    },
+    "house": {
+        "desc": "Get house of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "dynasty_house"
+    },
+    "legend_type": {
+        "desc": "Get the type of this legend",
+        "input_scopes": "legend",
+        "output_scopes": "legend_type"
+    },
+    "local_var": {
+        "desc": "Reference a previous set local variable via its name eg: local_var:person_of_interest",
+        "requires_data": "yes",
+        "global_link": "yes"
+    },
+    "named_script_value": {
+        "desc": "A script value that will calculate and returns its value in the context it is used",
+        "wild_card": "yes",
+        "output_scopes": "value"
+    },
+    "no": {
+        "desc": "Boolean literal for false values",
+        "global_link": "yes",
+        "output_scopes": "boolean"
+    },
+    "prev": {
+        "desc": "The previous scope",
+        "global_link": "yes"
+    },
+    "province": {
+        "desc": "Directly scope to a specific province by its ID",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "province"
+    },
+    "root": {
+        "desc": "The head of the current top scope eg: reciever of an event, taker of a decision",
+        "global_link": "yes"
+    },
+    "scope": {
+        "desc": "Reference a previously saved scope via its name eg: scope:target",
+        "requires_data": "yes",
+        "global_link": "yes"
+    },
+    "situation": {
+        "desc": "Global link to the situation of the given type key (only available if the situation has `is_unique = yes`.",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "situation"
+    },
+    "special_guest": {
+        "desc": "Get the special guest of the given type key in the scoped activity",
+        "requires_data": "yes"
+    },
+    "struggle": {
+        "desc": "Global link to struggle of the given key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "struggle"
+    },
+    "task_contract_type": {
+        "desc": "Get the task_contract_type with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "task_contract_type"
+    },
+    "this": {
+        "desc": "The current scope"
+    },
+    "title": {
+        "desc": "Get landed title of scoped holy order",
+        "input_scopes": "holy_order",
+        "output_scopes": "landed_title"
+    },
+    "trait": {
+        "desc": "Get the trait with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "trait"
+    },
+    "value": {
+        "desc": "A numeric literal value eg: 1, 5.2, -6",
+        "wild_card": "yes",
+        "global_link": "yes",
+        "output_scopes": "value"
+    },
+    "var": {
+        "desc": "Reference a previous set variable via its name eg: var:mortal_enemy",
+        "requires_data": "yes"
+    },
+    "vassal_contract": {
+        "desc": "Get the vassal_contract with the specified key",
+        "requires_data": "yes",
+        "global_link": "yes",
+        "output_scopes": "vassal_contract"
+    },
+    "yes": {
+        "desc": "Boolean literal for true values",
+        "global_link": "yes",
+        "output_scopes": "boolean"
+    },
+    "scheme_artifact": {
+        "desc": "Get artifact of scoped scheme",
+        "input_scopes": "scheme",
+        "output_scopes": "artifact"
+    },
+    "scheme_defender": {
+        "desc": "Get defender of scoped scheme",
+        "input_scopes": "scheme",
+        "output_scopes": "character"
+    },
+    "scheme_owner": {
+        "desc": "Get owner of scoped scheme",
+        "input_scopes": "scheme",
+        "output_scopes": "character"
+    },
+    "scheme_target_character": {
+        "desc": "Get target character of scoped scheme. Null if the target type is not a character.",
+        "input_scopes": "scheme",
+        "output_scopes": "character"
+    },
+    "scheme_target_culture": {
+        "desc": "Get target culture of scoped scheme. Null if the target type is not a culture.",
+        "input_scopes": "scheme",
+        "output_scopes": "culture"
+    },
+    "scheme_target_faith": {
+        "desc": "Get target faith of scoped scheme. Null if the target type is not a faith.",
+        "input_scopes": "scheme",
+        "output_scopes": "faith"
+    },
+    "scheme_target_title": {
+        "desc": "Get target title of scoped scheme. Null if the target type is not a title.",
+        "input_scopes": "scheme",
+        "output_scopes": "landed_title"
+    },
+    "task_contract": {
+        "desc": "Get the task contract associated to the scheme (if any).",
+        "input_scopes": "scheme",
+        "output_scopes": "task_contract"
+    },
+    "story_owner": {
+        "desc": "Get owner of scoped story",
+        "input_scopes": "story",
+        "output_scopes": "character"
+    },
+    "accolade": {
+        "desc": "Get the Accolade of which this character is the Acclaimed Knight",
+        "input_scopes": "character",
+        "output_scopes": "accolade"
+    },
+    "aptitude": {
+        "desc": "The aptitude of the provided court position type for the scoped character.",
+        "requires_data": "yes",
+        "input_scopes": "character",
+        "output_scopes": "value"
+    },
+    "aptitude_score": {
+        "desc": "Raw aptitude score of the provided court position type for the scoped character.",
+        "requires_data": "yes",
+        "input_scopes": "character",
+        "output_scopes": "value"
+    },
+    "assigned_tax_slot": {
+        "desc": "Get the Tax Slot of which this character is assigned to pay into",
+        "input_scopes": "character",
+        "output_scopes": "tax_slot"
+    },
+    "betrothed": {
+        "desc": "Get the betrothed of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "capital_barony": {
+        "desc": "Get capital barony title ( realm capital ) of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "landed_title"
+    },
+    "capital_county": {
+        "desc": "Get de jure liege title of the capital county ( realm capital ) of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "landed_title"
+    },
+    "capital_province": {
+        "desc": "Get capital province of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "province"
+    },
+    "commanding_army": {
+        "desc": "Get commanding army of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "army"
+    },
+    "concubinist": {
+        "desc": "Get concubinist of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "confederation": {
+        "desc": "Scope to the character's confederation",
+        "input_scopes": "character",
+        "output_scopes": "confederation"
+    },
+    "council_task": {
+        "desc": "Scope to the active task of the given council position, ex. scope:council_task_steward",
+        "requires_data": "yes",
+        "input_scopes": "character",
+        "output_scopes": "council_task"
+    },
+    "councillor_task_target": {
+        "desc": "Scope to the active task target of the scoped councillor",
+        "input_scopes": "character"
+    },
+    "court_owner": {
+        "desc": "Get the court owner of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "court_position": {
+        "desc": "The character currently employed in a specific court position.",
+        "requires_data": "yes",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "cp": {
+        "desc": "Scope to the councillor of the given type, ex. scope:cp_steward",
+        "requires_data": "yes",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "current_travel_plan": {
+        "desc": "Get the character's current travel plan",
+        "input_scopes": "character",
+        "output_scopes": "travel_plan"
+    },
+    "dead_var": {
+        "desc": "Reference a previous set dead character variable via its name eg: dead_var:mortal_enemy",
+        "requires_data": "yes",
+        "input_scopes": "character"
+    },
+    "default_location": {
+        "desc": "Get the province which the 'default' location a character should be at when not traveling. (considers imprisonment and other things.)",
+        "input_scopes": "character",
+        "output_scopes": "province"
+    },
+    "designated_diarch": {
+        "desc": "Get the designated diarch of a ruler",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "designated_heir": {
+        "desc": "Get designated heir of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "diarch": {
+        "desc": "Get the active diarch of a ruler",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "diarchy_successor": {
+        "desc": "Get the next character in the diarchy line of successon",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "domicile": {
+        "desc": "Get the domicile of the scoped character. Returns empty scope if no domicile.",
+        "input_scopes": "character",
+        "output_scopes": "domicile"
+    },
+    "employer": {
+        "desc": "Get employer of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "father": {
+        "desc": "Get father of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "ghw_beneficiary": {
+        "desc": "Get great holy war beneficiary of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "home_court": {
+        "desc": "Get the home court owner of the scoped hostage. Returns empty scope if the character is not a hostage",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "host": {
+        "desc": "Get current host of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "imprisoner": {
+        "desc": "Get imprisoner of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "inspiration": {
+        "desc": "Get the current inspiration of the scoped character, may not exist if they have no inspiration",
+        "input_scopes": "character",
+        "output_scopes": "inspiration"
+    },
+    "intent_target": {
+        "desc": "Get the intent target of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "involved_activity": {
+        "desc": "Get involved activity of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "activity"
+    },
+    "joined_faction": {
+        "desc": "Get joined faction of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "faction"
+    },
+    "killer": {
+        "desc": "Get the scoped characters killer",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "knight_army": {
+        "desc": "Get knight army of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "army"
+    },
+    "last_played_character": {
+        "desc": "Get last played character of the currently scoped player character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "liege": {
+        "desc": "Get the liege of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "liege_or_court_owner": {
+        "desc": "Get the liege of the scoped character, if non then get court owner",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "matchmaker": {
+        "desc": "Get matchmaker of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "mother": {
+        "desc": "Get mother of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "obedience_target": {
+        "desc": "Get the obedience target of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "overlord": {
+        "desc": "Get the overlord (suzerain or liege) of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "player_heir": {
+        "desc": "Get player heir of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "pregnancy_assumed_father": {
+        "desc": "Get the assumed father of the scoped characters unborn baby",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "pregnancy_real_father": {
+        "desc": "Get the real father of the scoped characters unborn baby",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "primary_heir": {
+        "desc": "Get primary heir of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "primary_partner": {
+        "desc": "Get the primary partner ( consort ) of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "primary_spouse": {
+        "desc": "Get the primary spouse of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "primary_title": {
+        "desc": "Get primary title of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "landed_title"
+    },
+    "promoted_legend": {
+        "desc": "Get the promoted legend of this character",
+        "input_scopes": "character",
+        "output_scopes": "legend"
+    },
+    "real_father": {
+        "desc": "Get the real father of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "real_mother": {
+        "desc": "Get the real mother of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "realm_priest": {
+        "desc": "Get realm priest of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "secret_faith": {
+        "desc": "Get secret faith of scoped character",
+        "input_scopes": "character",
+        "output_scopes": "faith"
+    },
+    "suzerain": {
+        "desc": "Get the suzerain of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "tax_slot": {
+        "desc": "Get the Tax Slot of which this character is the Tax Collector",
+        "input_scopes": "character",
+        "output_scopes": "tax_slot"
+    },
+    "top_liege": {
+        "desc": "Get the top liege of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "top_overlord": {
+        "desc": "Get the top overlord (suzerain or liege) of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "top_suzerain": {
+        "desc": "Get the top suzerain of the scoped character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "vassal_tax_collector": {
+        "desc": "Get the Tax Collector of this Character",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "warden": {
+        "desc": "Get the warden of the scoped hostage. Returns empty scope if the character is not a hostage",
+        "input_scopes": "character",
+        "output_scopes": "character"
+    },
+    "combat_attacker": {
+        "desc": "Get attacker side of scoped combat",
+        "input_scopes": "combat",
+        "output_scopes": "combat_side"
+    },
+    "combat_defender": {
+        "desc": "Get defender side of scoped combat",
+        "input_scopes": "combat",
+        "output_scopes": "combat_side"
+    },
+    "combat_war": {
+        "desc": "Get war of scoped combat",
+        "input_scopes": "combat",
+        "output_scopes": "war"
+    },
+    "capital_vassal": {
+        "desc": "Get capital vassal title of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "landed_title"
+    },
+    "current_heir": {
+        "desc": "Get current heir to scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "character"
+    },
+    "de_facto_liege": {
+        "desc": "Get de facto liege title of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "landed_title"
+    },
+    "de_jure_liege": {
+        "desc": "Get de jure liege title of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "landed_title"
+    },
+    "holder": {
+        "desc": "Get holder of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "character"
+    },
+    "lessee": {
+        "desc": "Get current lessee of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "character"
+    },
+    "lessee_title": {
+        "desc": "Get lessee title of scoped landed title",
+        "input_scopes": "landed_title",
+        "output_scopes": "landed_title"
+    },
+    "previous_holder": {
+        "desc": "Get previous holder of scoped landed title",
+        "input_scopes": "landed_title",
+        "output_scopes": "character"
+    },
+    "state_faith": {
+        "desc": "Get the state faith of a scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "faith"
+    },
+    "title_capital_county": {
+        "desc": "Get preferred capital county of scoped title",
+        "input_scopes": "landed_title",
+        "output_scopes": "landed_title"
+    },
+    "title_domicile": {
+        "desc": "Get the domicile associated with the scoped title. Might not exist.",
+        "input_scopes": "landed_title",
+        "output_scopes": "domicile"
+    },
+    "title_province": {
+        "desc": "Get province of scoped landed title",
+        "input_scopes": "landed_title",
+        "output_scopes": "province"
+    },
+    "combat": {
+        "desc": "Get combat of scoped combat side",
+        "input_scopes": "combat_side",
+        "output_scopes": "combat"
+    },
+    "enemy_side": {
+        "desc": "Get enemy ( opposite ) combat side of scoped side",
+        "input_scopes": "combat_side",
+        "output_scopes": "combat_side"
+    },
+    "side_commander": {
+        "desc": "Get commander of scoped combat side",
+        "input_scopes": "combat_side",
+        "output_scopes": "character"
+    },
+    "side_primary_participant": {
+        "desc": "Get primary participant of scoped combat side",
+        "input_scopes": "combat_side",
+        "output_scopes": "character"
+    },
+    "inspiration_owner": {
+        "desc": "Get the character who owns the inspiration",
+        "input_scopes": "inspiration",
+        "output_scopes": "character"
+    },
+    "inspiration_sponsor": {
+        "desc": "Get the character who is sponsoring the inspiration, may not exist if there is no sponsor yet",
+        "input_scopes": "inspiration",
+        "output_scopes": "character"
+    },
+    "dynast": {
+        "desc": "Get dynasty head ( dynast ) of scoped character",
+        "input_scopes": "dynasty",
+        "output_scopes": "character"
+    },
+    "dynasty_founder": {
+        "desc": "Get the founder of the scoped dynasty",
+        "input_scopes": "dynasty",
+        "output_scopes": "character"
+    },
+    "activity_host": {
+        "desc": "Get host character of the scoped activity",
+        "input_scopes": "activity",
+        "output_scopes": "character"
+    },
+    "activity_location": {
+        "desc": "Get current location of the scoped activity",
+        "input_scopes": "activity",
+        "output_scopes": "province"
+    },
+    "calc_culture_dominant_faith": {
+        "desc": "Calculates what faith is the biggest in the culture based on # of counties. Be aware that this is an *expensive* calculation. In a tie, definition order breaks the tie",
+        "input_scopes": "culture",
+        "output_scopes": "faith"
+    },
+    "calc_culture_dominant_religion": {
+        "desc": "Calculates what religion is the biggest in the culture based on # of counties. Be aware that this is an *expensive* calculation. In a tie, definition order breaks the tie",
+        "input_scopes": "culture",
+        "output_scopes": "religion"
+    },
+    "culture_head": {
+        "desc": "Get culture head of scoped culture",
+        "input_scopes": "culture",
+        "output_scopes": "character"
+    },
+    "regiment_controller": {
+        "desc": "Get the character who currently controls the regiment",
+        "input_scopes": "regiment",
+        "output_scopes": "character"
+    },
+    "regiment_controlling_title": {
+        "desc": "Get title regiment's owning title",
+        "input_scopes": "regiment",
+        "output_scopes": "landed_title"
+    },
+    "regiment_owner": {
+        "desc": "Get regiment's owner",
+        "input_scopes": "regiment",
+        "output_scopes": "character"
+    },
+    "regiment_owning_title": {
+        "desc": "Get title regiment's owning title",
+        "input_scopes": "regiment",
+        "output_scopes": "landed_title"
+    },
+    "regiment_station": {
+        "desc": "Get regiment's station province",
+        "input_scopes": "regiment",
+        "output_scopes": "province"
+    },
+    "house_founder": {
+        "desc": "Get house founder of the scoped house",
+        "input_scopes": "dynasty_house",
+        "output_scopes": "character"
+    },
+    "house_head": {
+        "desc": "Get house head of the scoped character",
+        "input_scopes": "dynasty_house",
+        "output_scopes": "character"
+    },
+    "last_house_head": {
+        "desc": "Get last house head of scoped house",
+        "input_scopes": "dynasty_house",
+        "output_scopes": "character"
+    },
+    "councillor": {
+        "desc": "Scope to the councillor in a council task",
+        "input_scopes": "council_task",
+        "output_scopes": "character"
+    },
+    "founder": {
+        "desc": "Get founder of scoped faith",
+        "input_scopes": "faith",
+        "output_scopes": "character"
+    },
+    "great_holy_war": {
+        "desc": "Get great holy war of scoped faith",
+        "input_scopes": "faith",
+        "output_scopes": "ghw"
+    },
+    "religious_head": {
+        "desc": "Get religious head of scoped faith",
+        "input_scopes": "faith",
+        "output_scopes": "character"
+    },
+    "religious_head_title": {
+        "desc": "Get landed title belonging to the religious head of the scoped faith",
+        "input_scopes": "faith",
+        "output_scopes": "landed_title"
+    },
+    "slot_character": {
+        "desc": "Get the character of scoped agent slot",
+        "input_scopes": "agent_slot",
+        "output_scopes": "character"
+    },
+    "ghw_designated_winner": {
+        "desc": "Get designated winner of scoped great holy war",
+        "input_scopes": "ghw",
+        "output_scopes": "character"
+    },
+    "ghw_target_character": {
+        "desc": "Get target character of scoped great holy war",
+        "input_scopes": "ghw",
+        "output_scopes": "character"
+    },
+    "ghw_target_title": {
+        "desc": "Get target landed title of scoped great holy war",
+        "input_scopes": "ghw",
+        "output_scopes": "landed_title"
+    },
+    "ghw_title_recipient": {
+        "desc": "Get the title recipient of scoped great holy war",
+        "input_scopes": "ghw",
+        "output_scopes": "character"
+    },
+    "ghw_war": {
+        "desc": "Get great holy war from scoped war",
+        "input_scopes": "ghw",
+        "output_scopes": "war"
+    },
+    "ghw_war_declarer": {
+        "desc": "Get declarer of scoped great holy war",
+        "input_scopes": "ghw",
+        "output_scopes": "character"
+    },
+    "outbreak_province": {
+        "desc": "Get the province this epidemic outbreak started in",
+        "input_scopes": "epidemic",
+        "output_scopes": "province"
+    },
+    "tax_collector": {
+        "desc": "Get the Tax Collector of this Tax Slot",
+        "input_scopes": "tax_slot",
+        "output_scopes": "character"
+    },
+    "tax_slot_liege": {
+        "desc": "Get the Liege of this Tax Slot",
+        "input_scopes": "tax_slot",
+        "output_scopes": "character"
+    },
+    "participant_group_situation": {
+        "desc": "From the situation participant group, get the situation it belongs to.",
+        "input_scopes": "situation_participant_group",
+        "output_scopes": "situation"
+    },
+    "participant_group_sub_region": {
+        "desc": "From the situation participant group, get the situation sub-region it belongs to.",
+        "input_scopes": "situation_participant_group",
+        "output_scopes": "situation_sub_region"
+    },
+    "claimant": {
+        "desc": "Get claimant of scoped casus belli or war",
+        "input_scopes": "war, casus_belli",
+        "output_scopes": "character"
+    },
+    "primary_attacker": {
+        "desc": "Get primary attacker of scoped casus belli or war",
+        "input_scopes": "war, casus_belli",
+        "output_scopes": "character"
+    },
+    "primary_defender": {
+        "desc": "Get primary defender of scoped casus belli or war",
+        "input_scopes": "war, casus_belli",
+        "output_scopes": "character"
+    },
+    "mercenary_company_leader": {
+        "desc": "Get leader of scoped mercenary company",
+        "input_scopes": "mercenary_company",
+        "output_scopes": "character"
+    },
+    "province_owner": {
+        "desc": "Get province owner of scoped province",
+        "input_scopes": "province",
+        "output_scopes": "character"
+    },
+    "casus_belli": {
+        "desc": "Get casus belli of scoped war",
+        "input_scopes": "war",
+        "output_scopes": "casus_belli"
+    },
+    "holy_order_patron": {
+        "desc": "Get patron of scoped holy order",
+        "input_scopes": "holy_order",
+        "output_scopes": "character"
+    },
+    "leader": {
+        "desc": "Get leader of scoped holy order",
+        "input_scopes": "holy_order",
+        "output_scopes": "character"
+    },
+    "acclaimed_knight": {
+        "desc": "Get the Acclaimed Knight of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "character"
+    },
+    "accolade_owner": {
+        "desc": "Get the Owner of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "character"
+    },
+    "accolade_successor": {
+        "desc": "Get the Successor of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "character"
+    },
+    "founder_culture": {
+        "desc": "Get the founder Culture of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "culture"
+    },
+    "founder_dynasty": {
+        "desc": "Get the founder Dynasty of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "dynasty"
+    },
+    "founder_faith": {
+        "desc": "Get the founder Faith of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "faith"
+    },
+    "founder_house": {
+        "desc": "Get the founder House of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "dynasty_house"
+    },
+    "primary_type": {
+        "desc": "Get the primary Accolade Type of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "accolade_type"
+    },
+    "secondary_type": {
+        "desc": "Get the secondary Accolade Type of given Accolade",
+        "input_scopes": "accolade",
+        "output_scopes": "accolade_type"
+    },
+    "current_or_last_legend_owner": {
+        "desc": "Get the current or last owner of this legend",
+        "input_scopes": "legend",
+        "output_scopes": "character"
+    },
+    "legend_owner": {
+        "desc": "Get the owner of this legend",
+        "input_scopes": "legend",
+        "output_scopes": "character"
+    },
+    "legend_property": {
+        "desc": "Get the scope of the property with the given name on the scoped legend",
+        "requires_data": "yes",
+        "input_scopes": "legend"
+    },
+    "legend_protagonist": {
+        "desc": "Get the protagonist character of this legend",
+        "input_scopes": "legend",
+        "output_scopes": "character"
+    },
+    "character_top_participant_group": {
+        "desc": "Get the scope of the situation_participant_group that given character is part of on the scoped situation, for the top sub-region.",
+        "requires_data": "yes",
+        "input_scopes": "situation",
+        "output_scopes": "situation_participant_group"
+    },
+    "situation_participant_group": {
+        "desc": "Get the scope of the first situation_participant_group with the given name on the scoped situation (for top sub-region).",
+        "situation_participant_group": "group_name = { ... }",
+        "requires_data": "yes",
+        "input_scopes": "situation",
+        "output_scopes": "situation_participant_group"
+    },
+    "situation_sub_region": {
+        "desc": "Get the scope of the situation sub-region with a given key.",
+        "example": "situation_sub_region:west_region = { ... }",
+        "requires_data": "yes",
+        "input_scopes": "situation",
+        "output_scopes": "situation_sub_region"
+    },
+    "situation_top_gold": {
+        "desc": "Get the participating character with the most gold in the scoped situation.",
+        "input_scopes": "situation",
+        "output_scopes": "character"
+    },
+    "situation_top_herd": {
+        "desc": "Get the participating character with the most herd in the scoped situation.",
+        "input_scopes": "situation",
+        "output_scopes": "character"
+    },
+    "situation_top_provisions": {
+        "desc": "Get the participating character with the most provisions in the scoped situation.",
+        "input_scopes": "situation",
+        "output_scopes": "character"
+    },
+    "situation_top_sub_region": {
+        "desc": "Get the situation top sub-region with geographical, county and province info.",
+        "input_scopes": "situation",
+        "output_scopes": "situation_sub_region"
+    },
+    "faction_leader": {
+        "desc": "Get leader of scoped faction",
+        "input_scopes": "faction",
+        "output_scopes": "character"
+    },
+    "faction_target": {
+        "desc": "Get target character of scoped faction",
+        "input_scopes": "faction",
+        "output_scopes": "character"
+    },
+    "faction_war": {
+        "desc": "Get war of scoped faction",
+        "input_scopes": "faction",
+        "output_scopes": "war"
+    },
+    "special_character": {
+        "desc": "Get special character of scoped faction",
+        "input_scopes": "faction",
+        "output_scopes": "character"
+    },
+    "special_title": {
+        "desc": "Get special landed title of scoped faction",
+        "input_scopes": "faction",
+        "output_scopes": "landed_title"
+    },
+    "barony": {
+        "desc": "Get de jure barony title of scoped title or province",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "landed_title"
+    },
+    "barony_controller": {
+        "desc": "Get barony controller of scoped province or barony title",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "character"
+    },
+    "county": {
+        "desc": "Get de jure county title of scoped title or province",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "landed_title"
+    },
+    "county_controller": {
+        "desc": "Get county controller of scoped province or barony/county title",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "character"
+    },
+    "duchy": {
+        "desc": "Get de jure duchy title of scoped title or province",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "landed_title"
+    },
+    "empire": {
+        "desc": "Get de jure empire title of scoped title or province",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "landed_title"
+    },
+    "kingdom": {
+        "desc": "Get de jure kingdom title of scoped title or province",
+        "input_scopes": "landed_title, province",
+        "output_scopes": "landed_title"
+    },
+    "domicile_culture": {
+        "desc": "Get current culture of the scoped domicile. Doesn't exist if the domcile type doesn't use culture.",
+        "input_scopes": "domicile",
+        "output_scopes": "culture"
+    },
+    "domicile_faith": {
+        "desc": "Get current faith of the scoped domicile. Doesn't exist if the domcile type doesn't use faith.",
+        "input_scopes": "domicile",
+        "output_scopes": "faith"
+    },
+    "domicile_location": {
+        "desc": "Get current location of the scoped domicile",
+        "input_scopes": "domicile",
+        "output_scopes": "province"
+    },
+    "owner": {
+        "desc": "Get the owner of scoped domicile.",
+        "input_scopes": "domicile",
+        "output_scopes": "character"
+    },
+    "Event Targets Saved from Code:": {
+        "desc": ""
+    }
+}

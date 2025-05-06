@@ -1,0 +1,62 @@
+{
+    "description": "This directory contains all graphical assets used in the game. Assets must follow specific formats and naming conventions.",
+    "subdirectories": {
+        "FX": "Special effects and shaders",
+        "coat_of_arms": "Heraldry assets and templates",
+        "compound_nodes": "Complex graphical elements",
+        "court_scene": "3D assets for royal court",
+        "cursors": "Mouse cursor graphics",
+        "fonts": "Font files and definitions",
+        "interface": "UI graphics and icons",
+        "lines": "Line graphics and patterns",
+        "map": "Map textures and terrain graphics",
+        "models": "3D character and object models",
+        "particles": "Particle effect definitions",
+        "portraits": "Character portrait assets",
+        "schematics": "Technical drawings and layouts",
+        "skins": "Character skin textures"
+    },
+    "file_formats": {
+        "textures": {
+            "extension": ".dds",
+            "formats": {
+                "with_transparency": "BC3/DXT5",
+                "without_transparency": "BC1/DXT1"
+            }
+        },
+        "models": {
+            "extension": ".mesh"
+        },
+        "animations": {
+            "extension": ".anim"
+        },
+        "particles": {
+            "extension": ".particle"
+        },
+        "fonts": {
+            "extensions": [".fnt", ".ttf"]
+        },
+        "shaders": {
+            "extension": ".shader"
+        },
+        "settings": {
+            "extension": ".settings"
+        }
+    },
+    "naming_conventions": {
+        "rules": [
+            "Use lowercase for filenames",
+            "Use underscores for spaces",
+            "Include category prefix (e.g. \"gui_\", \"map_\", \"portrait_\")",
+            "Include size suffix for textures (e.g. \"_32\", \"_64\", \"_128\")",
+            "Include state for UI elements (e.g. \"_normal\", \"_hover\", \"_pressed\")"
+        ],
+        "prefixes": {
+            "gui": "UI elements",
+            "map": "Map assets",
+            "portrait": "Character portraits"
+        },
+        "size_suffixes": ["_32", "_64", "_128", "_256", "_512", "_1024"],
+        "ui_states": ["_normal", "_hover", "_pressed", "_disabled", "_selected"]
+    }
+} 

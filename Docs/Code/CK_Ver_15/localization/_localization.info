@@ -1,0 +1,47 @@
+=== Structure ===
+
+This directory contains all text strings used in the game in various languages.
+Files must follow strict formatting for proper language support.
+
+File Format:
+- Use YAML format (.yml)
+- UTF-8-BOM encoding required
+- One key per line
+- Language codes in file names (e.g. _l_english.yml)
+
+Supported Languages:
+- english/ - English localization
+- french/ - French localization
+- german/ - German localization
+- spanish/ - Spanish localization
+- russian/ - Russian localization
+- korean/ - Korean localization
+- simp_chinese/ - Simplified Chinese localization
+- jomini/ - Engine-specific localization
+
+File Structure Example:
+l_english:
+ KEY: "Text"
+ KEY_WITH_VARIABLE: "Text with $VARIABLE$"
+ KEY_WITH_FORMATTING: "#X Text with color#!"
+
+Special Formatting:
+- $VARIABLE$ - Variable insertion
+- @word! - Game concept link
+- #X - Color code start
+- #! - Color code end
+- \n - New line
+- £icon£ - Icon insertion
+
+Naming Conventions:
+- Use uppercase for keys
+- Use underscores for spaces in keys
+- Group related strings with common prefixes
+- Include category in filename (e.g. events_l_english.yml)
+
+Required Files:
+- languages.yml - Language definitions
+- _l_english.yml - Base English strings
+- game_concepts_l_*.yml - Game concept strings
+- events_l_*.yml - Event strings
+- gui_l_*.yml - Interface strings 

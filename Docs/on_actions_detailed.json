@@ -1,0 +1,2922 @@
+{
+    "task_manage_astrologer_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tradition_removed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "stress_loss_confider": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_prestige_level_loss": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "feast_default_host_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "petition_liege_ghosted": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_death_relation_best_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_rank_down": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_mercenary_company_dismissed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "fp2_lyonese_monk_events_phase_controversy_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "petition_liege_0201": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "pilgrimage_return_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_action_add_sexuality": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "befriend_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_contrite": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "convert_to_witchcraft_failure_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_migration_contract": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wanderer_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_confederation_leave": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "ongoing_rock_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_lyonese_monk_events_cycle": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "book_translation_story_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_harrying_aetheling_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hostage_depart_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_artifact_claim_lost": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "standard_claim_throne_method_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "three_yearly_culture_pulse": {
+        "from_code": true,
+        "expected_scope": "culture"
+    },
+    "on_remove_relation_best_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "task_convince_dejure_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "escape_from_prison_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_admin_eunuch_reaction_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_building_started": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_scheme_agent_discovered": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_bout_duel_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "funeral_wake_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_faith_monthly": {
+        "from_code": true,
+        "expected_scope": "faith"
+    },
+    "peasant_affair_peasant_at_court": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "petition_liege_0401": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_combat_unit_join_side": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_scheme_opportunity_changed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "wedding_ceremony_ending_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_guardian_depart_for_home": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "fp2_struggle_council_toledo_organize": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "elope_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "high_control_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_artifact_changed_owner": {
+        "from_code": true,
+        "expected_scope": "artifact"
+    },
+    "on_war_invalidated": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "manage_domain_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ep3_restored_rome_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "burial_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp3_yearly_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tradition_added": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_bout_board_game_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_success_pre_filter_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_war_transferred": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "chariot_spectator_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_temujin_flavor_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_melee_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_divorce": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "learn_commander_trait_test": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "yearly_struggle_playable_pulse": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_remove_relation_rival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "hunt_outcome_start_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "research_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_mercenary_company_hired": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "claim_throne_failed": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_adoptee_depart_for_adopter": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "wanderer_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hook_used": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "task_organize_raiders_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "lover_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_leave_court": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_accolade_new_acclaimed_knight": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "nerge_flavor_events_ai_attending_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_0021_contract_scheme_on_going_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "destiny_child_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_duty_special_2000_mediation_stage_2": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_doppelganger_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_success_imprisoned_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "organize_levies_monthly_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "house_feud_ai_scheme_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_respected_liege_events": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_guest_ready_to_move_to_pool": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "ep3_contract_094_travel_fallback": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_set_relation_blood_brother": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "sibling_statuses": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "travel_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "buddhist_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "feast_murder_feast_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diplomacy_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tour_grounds_liege": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "abduct_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_plan_cancel": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_guest_arrived_from_pool": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_siege_completion": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_become_independent_after_grant_title_at_vassal_limit": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_influence_level_loss": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "hold_court_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "assign_trait_ai_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_turkic_tribe_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "sway_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fabricate_hook_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murders_at_court_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "random_roaming_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "childhood_education_patronage": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_war_won_attacker": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "stress_threshold_level_3_event": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_flagellant": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_action_roman_restoration_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_joust_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_0001_contract_scheme_on_going_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_alliance_added": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "faith_heresy_events_pulse": {
+        "from_code": false,
+        "expected_scope": "faith"
+    },
+    "travel_event_tombola": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_archery_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tournament_leave_travel_state": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pilgrimage_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_set_relation_nemesis": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "faith_fervor_events_pulse": {
+        "from_code": false,
+        "expected_scope": "faith"
+    },
+    "on_pregnancy_mother": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "childhood_education_boost": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wedding_ceremony_ongoing_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_explore_cultures_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_yearly_invisible_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_set_relation_rival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "low_control_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "legend_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "inspiration_maintenance_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learning_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_joust_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_foreign_affairs_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_raid_action_start": {
+        "from_code": true,
+        "expected_scope": "army"
+    },
+    "fp2_struggle_council_toledo_debate": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "house_arrest_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_board_game_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "reincarnation_toy_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_county_faith_change": {
+        "from_code": true,
+        "expected_scope": "landed_title"
+    },
+    "party_baron_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "legend_changing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_athletic": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_visited_by_ghosts_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "travel_laamps_provisions_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diplomacy_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_title_gain_usurpation": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "claim_throne_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_lover": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_stress_level_3": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_release_from_prison": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "diplomacy_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "random_survey_second_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_success_incapable_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "imaginary_friend_adult_angel_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "random_yearly_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_raid_action_completion": {
+        "from_code": true,
+        "expected_scope": "army"
+    },
+    "on_death": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "commander_death_events_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_find_secrets_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wedding_wnight_ongoing_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_eagle_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "intrigue_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_ward": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "adult_education_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "kurultai_succession_chaotic_medium": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "martial_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hostage_invalidated": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_tour_grounds_vassal": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "bp2_child_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_witch_hunt_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wanderer_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_birth_father": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "bp2_adult_followups": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learn_commander_trait_offer": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_betrothal_broken": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_death_relation_nursed_child": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "norse_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_war_white_peace": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "murders_at_court_confrontation": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_manage_astrologer_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "inspiration_invalidated_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_3rd_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_organize_raiders_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_yearly_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_birthday_adulthood": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_stress_level_1": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_exploit_area_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tour_travel": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tour_dinner_liege": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diarchy_mandate_swell_armies_random": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "story_cycle_cat_pet_decision_on_actions": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "three_year_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "assign_trait_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "inspiration_maintenance_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hostage_depart_for_home_court": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "random_journey_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_duty_special_2000_mediation_background_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wanderer_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_set_relation_soulmate": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_stress_level_4": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "court_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_adoptee_arrive_at_adopter": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "lover_status_changes": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_archery_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_set_relation_grudge": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_defeat_raid_army": {
+        "from_code": true,
+        "expected_scope": "army"
+    },
+    "on_faction_demand_rejected": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "befriend_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "intrigue_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hindu_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_court_language_changed": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_scheme_discovered": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_army_enter_province": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "rival_relation_changes": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "grand_ambitions_powerful_family_coup_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pick_unique_murder_intercept_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_migration_finished": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "court_politics_task_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_promote_culture_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_lyonese_monk_events_phase_teachings_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hunt_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "feast_default_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_diarch_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "spouse_councillor_default_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_influence_level_gain": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_join_court": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "stress_loss_improvident": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_fired_from_council": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "camp_party_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_failure_standard_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "steal_back_artifact_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_raid_loot_delivered": {
+        "from_code": true,
+        "expected_scope": "army"
+    },
+    "peasant_affair_shows_up_at_court": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "inspiration_start_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_pregnancy_ended_mother": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "task_explore_cultures_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_player_select_destiny_confirmed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "assign_trait_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_title_lost": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "chariot_race_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "petition_liege_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "ai_character_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "el_cid_landless_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_help_herders_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "sway_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "cycle_vizierate_politicking_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_title_gain": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_travel_plan_movement": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_birthday_childhood": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_remove_relation_blood_brother": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "diplomacy_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "steal_back_artifact_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "parent_meddling_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_find_secrets_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_struggle_council_toledo_attend": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_sycophant_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_character_culture_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "ongoing_conqueror_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_artifact_broken_through_effect": {
+        "from_code": true,
+        "expected_scope": "artifact"
+    },
+    "on_birth_child": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "inspiration_completed_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_tax_rivalry_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_yearly_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_warhorse_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_inappetetic": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_rival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "kurultai_succession_chaotic_major": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_activity_complete": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_recital_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wanderer_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_holy_order_hired": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "playdate_start_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hostage_depart_for_warden": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_great_holy_war_invalidation": {
+        "from_code": true,
+        "expected_scope": "ghw"
+    },
+    "hunt_start_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "chariot_race_betting_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_combat_end_loser": {
+        "from_code": true,
+        "expected_scope": "combat_side"
+    },
+    "on_concubinage_end": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_concubinage": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "stewardship_road_building_chain": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "bp1_yearly_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_inactive_accolade_succession": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_melee_ai_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "horse_riding_accident_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_became_dynasty_head": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "increase_control_monthly_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "random_yearly_everyone_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "befriend_rival_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "grand_ambitions_powerful_family_scheme_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wanderer_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_struggle_council_toledo_fallback": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_accolade_successor_death": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_hostage_arrive_at_warden": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "five_year_everyone_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "murder_success_standard_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "martial_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "kurultai_succession_chaotic_minor": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_board_game_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "search_for_troops_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_cat_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "imaginary_friend_adult_devil_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learning_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_domesday_end": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_domestic_affairs_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "seduce_generic_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_stress_level_reduced": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_perks_refunded": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "quarterly_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "house_feud_inheritance_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_domicile_building_completed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_prestige_level_gain": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "random_survey_mid_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_accolade_acclaimed_removal": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "mpo_season_events_quarterly_playable_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_faith_created": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "task_develop_county_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_holy_order_new_lease": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "murder_failure_pre_filter_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "el_cid_landless_or_landed_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "chivalry_task_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ep3_akolouthos_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "standard_abduct_method_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_title_gain_inheritance": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "petition_liege_0205": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "inspiration_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_noble_family_title_created": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_recital_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "train_commanders_marshal_task_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diplomacy_foreign_special_1010_court_visit_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_set_relation_guardian": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "contest_bout_joust_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_game_start": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "mpo_the_great_steppe_yearly_pulse_random": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "contest_bout_duel_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_accolade_deactivated": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_character_faith_change": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_building_cancelled": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "stress_threshold_level_2_event_prison": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "faith_holy_order_land_acquisition_pulse": {
+        "from_code": false,
+        "expected_scope": "faith"
+    },
+    "commit_suicide": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "adventurer_talent_scouting_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "manage_guards_marshal_task_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "imaginary_friend_childhood_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_stress_level_2": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "culture_divergence_emergence_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "patronage_task_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tournament_locale_settlement_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tengri_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "martial_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learn_language_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_rakish": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_combat_end_winner": {
+        "from_code": true,
+        "expected_scope": "combat_side"
+    },
+    "on_accolade_acclaimed_death": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "pilgrimage_journey_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_house_in_admin_realm_became_powerful": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_court_type_changed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "intrigue_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_horse_race_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "feast_new_event_selection_tombola": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_madrasas_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_courtier_decided_to_move_to_pool": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_remove_relation_guardian": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "tournament_locale_artisans_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_migration_travel_end": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "rival_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pay_homage_start": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_visited_ep3_monument": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_house_feud_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "intrigue_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "epidemic_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "random_survey_first_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_culture_era_changed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "court_intrigue_task_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "muslim_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hajj_journey_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pilgrimage_intent_travel_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "playdate_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "peasant_affair_looking_for_peasant": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "child_personality_gain": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_duel_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_support_schemes_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_the_great_steppe_monthly_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "sway_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_player_royal_court_first_gained": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_accolade_successor_removal": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "tournament_locale_visitor_camp_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "map_painting_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_artifact_durability_low": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "childhood_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_fabricate_claim_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "adventurer_encourage_realtionships_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_birthday": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_became_house_head": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_faith_conversion": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_raid_action_weekly": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "pilgrimage_destination_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_confederation_join": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_explicit_claim_gain": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_courtier_ready_to_move_to_pool": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_holding_razed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_absent_from_royal_court": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "mentor_student_relation_changes": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diarchy_mandate_promote_authority_random": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tournament_locale_tavern_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "martial_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ep3_yearly_events_byzantium": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_exploit_area_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_potential_great_holy_war_invalidation": {
+        "from_code": true,
+        "expected_scope": "ghw"
+    },
+    "fp1_trade_events_cycle": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "contest_bout_wrestling_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_fabricate_claim_success_effect": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_sibling": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_holy_order_destroyed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "quarterly_prison_maintenance_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "clan_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_harrying_hereward_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "feast_start_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_yearly_events_nomads": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_action_orthodox_pentarchy_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "sibling_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_6th_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "befriend_critical_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_set_relation_lover": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "yearly_culture_pulse": {
+        "from_code": true,
+        "expected_scope": "culture"
+    },
+    "on_commander_combat_finished": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "claim_throne_succeeded": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "commission_epic_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "admin_confirmation_invalid_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_generic_nomadic_region_yearly_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "stewardship_duty_special_2000_mediation_stage_1": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "culture_hybridization_emergence_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "story_cycle_dog_pet_decision_on_actions": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_war_won_defender": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "tournament_locale_religious_building_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "yearly_global_pulse": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "mystic_communion_side_effect_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_convert_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "petition_liege_0101": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "pay_homage_invalid_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "breed_warhorse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp1_yearly_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_baron_found_or_created_for_title": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "jain_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_lyonese_monk_events_cycle_no_valid_events_fallback": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "wedding_wnight_spouse_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pilgrimage_generic_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_domicile_building_cancelled": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "tournament_passive_state_host_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_adventurer_ai_new_kingdom_arrival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "five_year_struggle_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_government_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "jewish_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "abduct_failed": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_great_holy_war_countdown_end": {
+        "from_code": true,
+        "expected_scope": "ghw"
+    },
+    "on_liege_government_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_adoptee_depart_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "pilgrimage_temptation_travel_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "yearly_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "fp1_trade_events_random": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "jester_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ep3_yearly_events_admin": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_activity_estimated_arrival_too_late": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "befriend_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_foreign_raised_reformer_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "admin_confirmation_start": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "abduct_succeeded": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wet_nurse_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_hashishiyah": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "three_year_pool_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "contest_bout_wrestling_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_domicile_moved": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "friendship_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_ruler_designer_finished": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_trigger_court_events": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "martial_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_pregnancy_father": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "murder_failure_child_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_find_secrets_reveal_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_entered_diarchy": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_birthday_education_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_help_herders_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "zoroastrian_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_recital_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_threshold_level_2_event": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_ward_arrive_at_home": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "stress_loss_irritable": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tournament_opening_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "hunt_outcome_complication_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "manage_domain_task_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_court_grandeur_level_changed": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "stress_threshold_level_1_event": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_piety_level_loss": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "friendship_status_changes": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "seduce_ongoing_milestone_2": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_county_auto_granted_to_local_culture": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "murder_success_child_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_lyonese_monk_events_phase_schism_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_melee_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_hostage_loyalty_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "petition_liege_start": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_hostage_released": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "childhood_education": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "migration_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_integrate_title_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_army_combat_finished": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_diarch_designation": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_piety_level_gain": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_travel_relocation_start": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_siege_looting": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_horse_race_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "admin_confirmation_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "grand_ambitions_invalidation_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_de_jure_shift": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_vassal_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_active_accolade_succession": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_travel_plan_abort": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "murder_failure_incapable_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_drunkard": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "patronage_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learning_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "pagan_conversion_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_comfort_eater": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_adventurer_ai_war_target_arrival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_ward_arrive_at_guardian": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "befriend_dislike_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hunt_sighting_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_county_auto_granted_to_liege_culture": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_10th_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pick_repeatable_murder_intercept_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "steal_herd_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_title_destroyed": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "seduce_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "sell_titles_side_effect_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_army_monthly": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_accolade_glory_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_adventurer_ai_new_employer_arrival": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "harm_events_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "organize_the_levies_marshal_task_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "court_politics_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_nemesis": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "fp2_iberian_struggle_random_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "train_commanders_monthly_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_admin_eunuch_effect_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learn_commander_trait_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "escape_from_prison_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "steal_back_artifact_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pilgrimage_religious_travel_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_bestow_royal_favor_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "feast_main_event_selection": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hunt_outcome_end_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_violet_poet_owner_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_15th_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_game_start_after_lobby": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_specific_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_faction_demand_accepted": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "wedding_bloody_banquet_ongoing_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_imprison": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_artifact_durability_very_low": {
+        "from_code": true,
+        "expected_scope": "artifact"
+    },
+    "on_birth_mother": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_left_diarchy": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "pay_homage_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_yearly_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_0031_contract_scheme_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_blood_brother": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_hostage_taken": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "pilgrimage_generic_travel_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_bout_wrestling_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_kurultai_succession_stable": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_raid_intent_invalidated": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_ward_depart_for_guardian": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "task_increase_control_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_threshold_level_1_event_prison": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "court_scholar_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_dynasty_created": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_migration_war_end": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "adult_education_destination_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_guardian": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_kurultai_succession_chaotic": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_house_in_admin_realm_became_dominant": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "tournament_locale_tournament_grounds_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "in_debt_county_corruption_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "task_manage_fertility_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_set_relation_best_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "claim_throne_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diplomacy_lifestyle_ongoing_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_county_auto_granted_to_herder": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_16th_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_alliance_removed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_tour_dinner_vassal": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "pagan_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tour_festival_liege": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_futuwaa_lodges_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_county_occupied": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "tournament_passive_state_guest_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "intrigue_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_accolade_created": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_guardian_depart_for_ward": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_culture_created": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_rank_up": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_travel_leader_removed": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "stress_threshold_level_3_event_prison": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_death_relation_soulmate": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "learning_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_vassal_become_powerful": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_artifact_claim_gained": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "task_collect_taxes_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_plan_complete": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "learning_lifestyle_uncommon_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_road_building_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "martial_lifestyle_rare_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_reclusive": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_0041_contract_scheme_on_going_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "train_commanders_success_effect": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_ward_depart_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "learning_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_set_relation_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_set_relation_crush": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "tournament_intent_setup_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_guardian_arrive_at_ward": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "learn_language_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "hunt_end_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_activity_invalidated": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "realm_maintenance_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_join_war_as_secondary": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "turkic_tribe_story_end": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_the_great_steppe_yearly_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_remove_relation_ward": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "befriend_critical_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_ward_depart_for_home": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "bishop_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "yearly_health_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_explicit_claim_lost": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "ongoing_hunt_mystical_animal_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "intrigue_lifestyle_progress_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "learn_language_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "steal_herd_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "camp_party_destination_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_accolade_rank_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_archery_outcome_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "varangian_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_alliance_broken": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_natural_death_second_chance": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "ongoing_dog_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_leave_council": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_county_culture_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_vassal_gained": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_war_started": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_travel_plan_arrival": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_melee_setup_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_activity_arrival_too_late": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "court_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diplomacy_foreign_special_1010_court_visit_interesting_relation_spy_outcome_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "learn_commander_trait_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "inspiration_maintenance_global_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "disease_outbreak_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ongoing_harrying_owner_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "prison_maintenance_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "bp2_parent_guardian_hostage_taker_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "seduce_failure": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "roaming_mid_activity_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_travel_relocation_end": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "wedding_banquet_ongoing_event_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_player_select_destiny_setup": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "stewardship_lifestyle_domesday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_hostage_arrive_at_home_court": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_graceful_aging_birthday": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_ongoing_event_horse_race_random_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_building_completed": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_councillor_left": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "ongoing_black_death_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_domicile_building_started": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "task_disrupt_schemes_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_religious_relations_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "fp2_iberian_struggle_starting_events": {
+        "from_code": false,
+        "expected_scope": "struggle"
+    },
+    "steal_herd_success": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "tournament_active_state_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mentor_student_quarterly_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_marriage": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "hajj_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_remove_relation_lover": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "caravan_master_prepare_travels_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_remove_relation_friend": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "stress_loss_profligate": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "task_manage_fertility_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_remove_relation_grudge": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "on_realm_capital_change": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_travel_plan_start": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_great_holy_war_participant_replaced": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "task_accept_culture_side_effects": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "chariot_race_opening_on_action": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "contest_ongoing_event_melee_pivotal_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "five_year_playable_pulse": {
+        "from_code": true,
+        "expected_scope": "character"
+    },
+    "on_artifact_broken_through_decay": {
+        "from_code": true,
+        "expected_scope": "artifact"
+    },
+    "diplomacy_lifestyle_common_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_guardian_depart_travel_planner_exit": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "fabricate_hook_method_success_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "wounded_recovery_pulse": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "nerge_flavor_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_combat_start": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "travel_danger_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "escape_from_prison": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_artifact_succession": {
+        "from_code": true,
+        "expected_scope": "artifact"
+    },
+    "abduct_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_contract_scheme_on_going_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "mpo_tributary_check_pulse": {
+        "from_code": false,
+        "expected_scope": null
+    },
+    "map_painting_outcome": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "christian_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stress_loss_journaller": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "chivalry_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_tour_festival_vassal": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "court_intrigue_setup": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_visited_grand_city": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "laamp_base_4015_contract_arrival_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "diarchy_mandate_fill_coffers_random": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "ep3_yearly_events_laamps": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "contest_archery_mysterious_event": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "agent_events_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "dungeon_ongoing": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "seduce_ongoing_milestone_1": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "stewardship_lifestyle_unavailable_events": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "murder_failure_imprisoned_event_list_on_action": {
+        "from_code": false,
+        "expected_scope": "character"
+    },
+    "on_birth_real_father": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_game_start_with_tutorial": {
+        "from_code": true,
+        "expected_scope": null
+    },
+    "on_guardian_arrive_at_home": {
+        "from_code": false,
+        "expected_scope": null
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "description": "This directory contains all user interface definitions and layouts. Files define how game elements are displayed and interact with the player.",
+    "file_format": {
+        "extension": ".gui",
+        "encoding": "UTF-8-BOM",
+        "requirements": [
+            "Follow the widget hierarchy structure",
+            "Properties should be properly indented"
+        ]
+    },
+    "types": {
+        "window_definitions": ".gui",
+        "widget_templates": ".gui",
+        "shared_components": ".gui",
+        "scripted_ui_elements": ".gui"
+    },
+    "subdirectories": {
+        "activity_locale_widgets": "Activity location UI components",
+        "activity_window_widgets": "Activity window UI components",
+        "debug": "Debug interface elements",
+        "decision_view_widgets": "Decision menu components",
+        "event_window_widgets": "Event window components",
+        "event_windows": "Event window layouts",
+        "jomini": "Engine-specific UI components",
+        "map_editor": "Map editing interface",
+        "notifications": "Notification windows",
+        "POPS": "Population UI elements",
+        "preload": "Preloaded UI assets",
+        "scripted_widgets": "Reusable UI components",
+        "settings": "Game settings windows",
+        "shared": "Common UI elements"
+    },
+    "window_structure": {
+        "example": {
+            "types": {
+                "MyWindowType": {
+                    "window_name": {
+                        "type": "window",
+                        "properties": {
+                            "size": {
+                                "width": "value",
+                                "height": "value"
+                            },
+                            "position": {
+                                "x": "value",
+                                "y": "value"
+                            },
+                            "layer": "layer_name"
+                        },
+                        "elements": [
+                            "widget",
+                            "button",
+                            "text"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "common_elements": {
+        "window": "Base container for UI elements",
+        "widget": "Generic UI container",
+        "button": "Clickable element",
+        "text": "Text display",
+        "icon": "Image display",
+        "scrollarea": "Scrollable container",
+        "editbox": "Text input field",
+        "dropdown": "Selection menu"
+    }
+} 

@@ -1,0 +1,127 @@
+﻿{
+    "description": "This directory contains all event definitions that can occur in the game. Events can be triggered by various conditions and affect characters, realms, and the game world.",
+    "file_format": {
+        "type": "plain text",
+        "extension": ".txt",
+        "encoding": "UTF-8-BOM",
+        "requirements": [
+            "Each event must have a unique ID",
+            "Events should be properly categorized in subdirectories"
+        ]
+    },
+    "subdirectories": {
+        "activities": "Activity-related events",
+        "artifacts": "Artifact discovery and interaction events",
+        "birth_events.txt": "Character birth events",
+        "court_events": "Court and royal events",
+        "culture_events": "Cultural events and decisions",
+        "death_events.txt": "Character death events",
+        "decisions_events": "Decision-triggered events",
+        "education_and_childhood": "Character education events",
+        "factions": "Faction-related events",
+        "government_events": "Government and realm events",
+        "health_events.txt": "Character health events",
+        "interaction_events": "Character interaction events",
+        "lifestyle": "Lifestyle and focus events",
+        "marriage_effect_events.txt": "Marriage-related events",
+        "prison_events": "Imprisonment events",
+        "religion_events": "Religious events",
+        "scheme_events": "Scheme and plot events",
+        "stress_events": "Character stress events",
+        "war_events": "War and battle events",
+        "yearly_events": "Regular yearly events"
+    },
+    "event_structure": {
+        "basic_fields": {
+            "type": {
+                "options": ["character_event", "letter_event", "court_event", "activity_event"],
+                "default": "character_event",
+                "description": "What type of event this is"
+            },
+            "scope": {
+                "type": "string",
+                "optional": true,
+                "default": "character",
+                "description": "Expected root scope for the event"
+            },
+            "window": {
+                "type": "string",
+                "optional": true,
+                "description": "Special event file and widget in gui/event_windows"
+            }
+        },
+        "cooldown": {
+            "type": "object",
+            "description": "Duration before event can fire again for same recipient",
+            "fields": {
+                "days": "script value",
+                "weeks": "script value",
+                "months": "script value",
+                "years": "script value"
+            }
+        },
+        "portraits": {
+            "positions": [
+                "left_portrait",
+                "right_portrait",
+                "center_portrait",
+                "lower_left_portrait",
+                "lower_center_portrait",
+                "lower_right_portrait",
+                "sender"
+            ],
+            "portrait_definition": {
+                "character": "event target",
+                "trigger": "optional visibility condition",
+                "animation": "optional animation name",
+                "scripted_animation": "optional scripted animation key",
+                "triggered_animations": {
+                    "trigger": "condition",
+                    "animation": "animation name",
+                    "scripted_animation": "animation key"
+                },
+                "outfit": {
+                    "outfit_tags": ["tag1", "tag2"],
+                    "remove_default_outfit": "boolean",
+                    "hide_info": "boolean"
+                },
+                "camera": "optional camera key"
+            }
+        },
+        "widgets": {
+            "description": "Custom UI elements in events",
+            "widget_definition": {
+                "is_shown": "trigger condition",
+                "gui": "widget_name",
+                "container": "container_widget_name",
+                "controller": "controller_type",
+                "setup_scope": "scope setup effect"
+            },
+            "available_controllers": {
+                "default": {
+                    "context": "EventWindowWidget",
+                    "description": "Default controller, no special behavior"
+                },
+                "name_character": {
+                    "context": "EventWindowWidgetNameCharacter",
+                    "description": "Changes character name",
+                    "requirements": ["name_character_target saved scope"]
+                },
+                "text": {
+                    "context": "EventWindowWidgetEnterText",
+                    "description": "Saves text onto character"
+                },
+                "event_chain_progress": {
+                    "context": "EventWindowWidgetChainProgress",
+                    "description": "Shows event chain progress",
+                    "requirements": ["event_chain_length", "event_chain_progress"]
+                },
+                "struggle_info": {
+                    "context": "EventWindowCustomWidgetStruggleInfo",
+                    "description": "Shows struggle information",
+                    "requirements": ["start scope value"]
+                }
+            }
+        }
+    }
+}
