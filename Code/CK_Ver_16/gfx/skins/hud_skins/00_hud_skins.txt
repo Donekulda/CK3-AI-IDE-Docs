@@ -1,0 +1,50 @@
+﻿norse = {
+	is_valid = {
+		has_dlc_feature = the_northern_lords
+	}
+	is_shown = {
+		OR = {
+			has_culture = culture:norse
+			AND = {
+				religion = religion:germanic_religion
+				culture = { has_cultural_pillar = heritage_north_germanic }
+			}
+		}
+	}
+}
+
+iberian = {
+	is_valid = {
+		has_dlc_feature = the_fate_of_iberia
+	}
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_iberian }
+	}
+}
+
+iranian = {
+	is_valid = {
+		has_dlc_feature = legacy_of_persia
+	}
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_iranian }
+	}
+}
+
+byzantine = {
+	is_valid = {
+		has_dlc_feature = roads_to_power
+	}
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_byzantine }
+	}
+}
+
+nomad = {
+	is_valid = {
+		has_dlc_feature = khans_of_the_steppe
+	}
+	is_shown = {
+		government_has_flag = government_is_nomadic
+	}
+}
